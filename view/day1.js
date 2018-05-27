@@ -43,17 +43,15 @@ class WatchControl extends Component{
   }
 
   _startWatch() {
-    this.setState({
-      watchOn: !this.state.watchOn
-    });
 
-    if (this.state.watchOn) {
+    if (!this.state.watchOn) {
       this.props.startWatch()
       this.setState({
         startBtnText: "停止",
         startBtnColor: "#ff0044",
         stopBtnText: "计次",
-        underlayColor:"#eee"
+        underlayColor:"#eee",
+        watchOn: true
       })
     }else{
       this.props.stopWatch()
@@ -61,7 +59,8 @@ class WatchControl extends Component{
         startBtnText: "启动",
         startBtnColor: "#60B644",
         stopBtnText: "复位",
-        underlayColor:"#eee"
+        underlayColor:"#eee",
+        watchOn: false
       })
     } 
   }

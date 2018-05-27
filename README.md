@@ -10,19 +10,9 @@ This project is inspired by
 
 30DaysofSwift (https://github.com/allenwong/30DaysofSwift)
 
-## Upgrade to RN@0.25
+## Upgrade to RN@0.34 & compatible with Xcode 8
 
- Branch RN@0.25 is under development for upgrading RN to v0.25. It solves the following deprecated features: 
-
- 1. Requiring React API from react-native is now deprecated. (Error in v0.26)
-
- 2. StatusBarIOS is deprecated. 
-
- 3. SliderIOS is deprecated.
-
-Have some bugs on day4 and day 27. To be fixed.
-
-If you want to use the latest version of React Native. You should use the RN@0.25 branch. 
+ Branch development is under development for upgrading RN to v0.34 & supporting Xcode 8. 
 
 ## Installation
 Require node.js (v5.x), npm install -g react-native-cli , xcode & cocoapods
